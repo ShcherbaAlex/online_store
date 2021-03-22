@@ -12,7 +12,7 @@ import java.util.Map;
 public class FinishPurchaseRequest {
 
     @NotNull
-    private Map<Integer,Integer> productIdProductCount;
+    private Map<Integer, Integer> productIdProductCount;
     @NotEmpty
     private String userName;
     private String userSurname;

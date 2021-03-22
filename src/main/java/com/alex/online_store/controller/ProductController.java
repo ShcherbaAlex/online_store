@@ -19,9 +19,9 @@ public class ProductController {
     private final ProductService productService;
 
     @GetMapping("/products")
-    public List<ProductEntity> getAllProducts(){
-    log.info("handling get all products request");
-    return productService.findAll();
+    public List<ProductEntity> getAllProducts() {
+        log.info("handling get all products request");
+        return productService.findAll();
     }
 
     @GetMapping("/product/{id}")
